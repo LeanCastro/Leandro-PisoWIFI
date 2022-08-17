@@ -1,0 +1,218 @@
+body {
+    width: 100%;
+    background-color: black;
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 10px;
+    height: 10px;
+    margin: 0px 40px;
+}
+.first-text {
+    margin: 1px 110px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 50;
+    color: rgb(95, 92, 92);
+    background-color: rgb(153, 245, 177);
+    width: 650px;
+    height: 70px;
+    margin-bottom: 35px;
+    padding-top: 30px;
+    text-align: center;
+}
+.mac {
+    margin-bottom: 10px;
+    padding: 2px 160px;
+    font-weight: 510;
+    font-size: 30px;
+    color: rgb(174, 47, 174);
+}
+.credits {
+    color: #fff;
+    line-height: 0%;
+    padding: 0px 250px;
+    font-size: 25px;
+    font-weight: 510;
+}
+.pause {
+    padding: 10px 260px;
+    color: rgb(219, 4, 4);
+    line-height: 160px;
+    font-size: 50px;
+}
+h3 {
+     color: #fff;
+    padding: 0px 280px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #fff;
+    margin-bottom: 60px;
+    line-height: 0%;
+    padding: 0px 200px;
+    font-size: 50px;
+}
+button {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 40px;
+    width: 500px;
+    height: 70px;
+}
+.green, .red, .blue {
+    margin-left: 170px;
+}
+.green {
+    background-color: rgb(63, 186, 63);
+    font-family: arial;
+    font-weight: 700;
+}
+.red {
+    background-color: rgb(214, 41, 41);
+    font-family: arial;
+    font-weight: 700;
+}
+.blue {
+    background-color: rgb(9, 9, 226);
+    font-family: arial;
+    font-weight: 700;
+}
+.typing-area {
+    width: 500px;
+    border: 2px solid grey;
+    font-size: 25px;
+    height: 55px;
+    margin-left: 100px;
+}
+.last-button {
+    background-color: rgb(9, 9, 226);
+    width: 170px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.last-text {
+    color: #fff;
+    padding-left: 180px;
+    font-size: 35px;
+}
+@media only screen and (min-width: 375px) {
+    body {
+        width: 100%;
+        font-family: arial, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        margin: 0;
+        width: 375px;
+        height: 170px;
+    }
+    .first-text {
+        margin: 1px 50px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 50;
+        color: rgb(95, 92, 92);
+        background-color: rgb(153, 245, 177);
+        width: 270px;
+        height: 25px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .mac {
+        margin-bottom: 0px;
+        padding: 0px 70px;
+        font-weight: 510;
+        font-size: 13px;
+        color: rgb(174, 47, 174);
+    }
+    .credits {
+        line-height: 0%;
+        padding: 0px 113px;
+        font-size: 11px;
+        font-weight: 510;
+    }
+    .pause {
+        padding: 10px 90px;
+        color: rgb(219, 4, 4);
+        line-height: 75px;
+        font-size: 30px;
+    }
+    h3 {
+        padding: 0px 120px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        color: black;
+        margin-bottom: 30px;
+        line-height: 0%;
+        padding: 0px 75px;
+        font-size: 25px;
+        animation: changecolor 3s linear infinite;
+    }
+    @keyframes changecolor {
+        0%{
+            color: black;
+        }
+        50% {
+            color: #d2cdcd;
+        }
+    }
+    button{
+        margin-bottom: 15px;
+        color: #fff;
+        font-size: 18px;
+        width: 250px;
+        height: 35px;
+    }
+    .green, .red, .blue {
+        margin-left: 69px;
+        border: none;
+    }
+    .green {
+        background-color: rgb(63, 186, 63);
+        font-family: arial;
+        font-weight: 700;
+    }
+    .red {
+        background-color: rgb(214, 41, 41);
+        font-family: arial;
+        font-weight: 700;
+    }
+    .blue {
+        background-color: rgb(9, 9, 226);
+        font-family: arial;
+        font-weight: 700;
+    }
+    .typing-area {
+        width: 220px;
+        border: 2px solid grey;
+        font-size: 15px;
+        height: 23px;
+        margin-left: 30px;
+    }
+    .last-button {
+        background-color: rgb(9, 9, 226);
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-bottom: 0%;
+    }
+    .last-text {
+        padding-left: 90px;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .link {
+        text-decoration: none;
+    }
+}
