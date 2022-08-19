@@ -1,0 +1,284 @@
+body {
+    width: 100%;
+    background-color: black;
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 10px;
+    height: 10px;
+    margin: 0px 40px;
+}
+.first-text {
+    margin: 1px 110px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 50;
+    color: rgb(95, 92, 92);
+    background-color: rgb(153, 245, 177);
+    width: 650px;
+    height: 70px;
+    margin-bottom: 35px;
+    padding-top: 30px;
+    text-align: center;
+}
+.mac {
+    margin-bottom: 10px;
+    padding: 2px 160px;
+    font-weight: 510;
+    font-size: 30px;
+    color: rgb(174, 47, 174);
+}
+.credits {
+    color: #fff;
+    line-height: 0%;
+    padding: 0px 250px;
+    font-size: 25px;
+    font-weight: 510;
+}
+.pause {
+    padding: 10px 260px;
+    color: rgb(219, 4, 4);
+    line-height: 160px;
+    font-size: 50px;
+}
+h3 {
+     color: #fff;
+    padding: 0px 280px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #fff;
+    margin-bottom: 60px;
+    line-height: 0%;
+    padding: 0px 200px;
+    font-size: 50px;
+}
+button {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 40px;
+    width: 500px;
+    height: 70px;
+}
+.green, .red, .blue {
+    margin-left: 170px;
+}
+.green {
+    background-color: rgb(63, 186, 63);
+    font-family: arial;
+    font-weight: 700;
+}
+.red {
+    background-color: rgb(214, 41, 41);
+    font-family: arial;
+    font-weight: 700;
+}
+.blue {
+    background-color: rgb(9, 9, 226);
+    font-family: arial;
+    font-weight: 700;
+}
+.typing-area {
+    width: 500px;
+    border: 2px solid grey;
+    font-size: 25px;
+    height: 55px;
+    margin-left: 100px;
+}
+.last-button {
+    background-color: rgb(9, 9, 226);
+    width: 170px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.last-text {
+    color: #fff;
+    padding-left: 180px;
+    font-size: 35px;
+}
+@media only screen and (min-width: 375px) {
+    body {
+        width: 100%;
+        font-family: arial, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        margin: 0;
+        width: 100%;
+        height: 280px;
+    }
+    .first-text {
+        margin: 1px 115px;
+        border-radius: 5px;
+        font-size: 35px;
+        font-weight: 60;
+        color: rgb(95, 92, 92);
+        background-color: rgb(153, 245, 177);
+        width: 650px;
+        height: 65px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .mac {
+        margin-bottom: 20px;
+        padding: 0px 161px;
+        font-weight: 510;
+        font-size: 30px;
+        color: rgb(174, 47, 174);
+    }
+    .credits {
+        line-height: 0%;
+        padding: 0px 250px;
+        font-size: 25px;
+        font-weight: 510;
+    }
+    .pause {
+        padding: 10px 200px;
+        color: rgb(219, 4, 4);
+        line-height: 250px;
+        font-size: 65px;
+    }
+    h3 {
+        padding: 0px 244px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        color: black;
+        margin-bottom: 80px;
+        line-height: 0%;
+        padding: 0px 145px;
+        font-size: 60px;
+        animation: changecolor 3s linear infinite;
+    }
+    @keyframes changecolor {
+        0%{
+            color: black;
+        }
+        50% {
+            color: #d2cdcd;
+        }
+    }
+    button{
+        margin-bottom: 35px;
+        color: #fff;
+        font-size: 40px;
+        width: 680px;
+        height: 65px;
+    }
+    .green, .red, .blue {
+        margin-left: 85px;
+        border: none;
+    }
+    .green {
+        background-color: rgb(63, 186, 63);
+        font-family: arial;
+        font-weight: 700;
+    }
+    .red {
+        background-color: rgb(214, 41, 41);
+        font-family: arial;
+        font-weight: 700;
+    }
+    .blue {
+        background-color: rgb(9, 9, 226);
+        font-family: arial;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    .typing-area {
+        width: 600px;
+        border: 2px solid grey;
+        font-size: 30px;
+        height: 55px;
+        margin-left: 40px;
+    }
+    .last-button {
+        background-color: rgb(9, 9, 226);
+        width: 150px;
+        height: 70px;
+        border: none;
+        font-size: 35px;
+        margin-bottom: 0%;
+    }
+    .last-text {
+        padding-left: 150px;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .link {
+        text-decoration: none;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    img {
+        padding: 0px 360px;
+        width: 40%;
+        height: 150px;
+    }
+    .first-text {
+        padding: 0px;
+        margin-left: 435px;
+        width: 400px;
+        height: 30px;
+        margin-bottom: -10px;
+        font-size: 20px;
+    }
+    .mac {
+        padding: 0px 470px;
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .credits {
+        padding: 0px 530px;
+        font-size: 15px;
+    }
+    .pause {
+        line-height: 90px;
+        font-size: 38px;
+        padding: 0px 515px;
+    }
+    h3 {
+        padding: 0px 530px;
+        font-size: 25px;
+    }
+    h2 {
+        padding: 0px 485px;
+        font-size: 33px;
+        margin-bottom: 40px;
+    }
+    button {
+        width: 290px;
+        margin-bottom: 15px;
+        font-size: 23px;
+        height: 33px;
+    }
+    .green, .red, .blue {
+        margin-left: 490px;
+    }
+    .blue {
+        margin-bottom: 15px;
+    }
+    .typing-area {
+        margin-left: 430px;
+        width: 350px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .last-button {
+        width: 80px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .last-text {
+        padding: 0px 500px;
+        font-size: 20px
+    }
+}
